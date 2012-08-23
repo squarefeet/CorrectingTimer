@@ -13,8 +13,8 @@ Released under MIT license.
 ##Usage
 
     // As a constructor:
-    var myTimer = new Timer(function() {
-        // Do stuff here.
+    var myTimer = new Timer(function(drift) {
+        // Do stuff here. drift arg is Number.
     }, 100);
     myTimer.start();
 
